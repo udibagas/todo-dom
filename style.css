@@ -1,0 +1,62 @@
+* {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+li {
+  display: flex;
+  gap: 5px;
+  margin: 10px 0;
+  border: 1px solid blue;
+  padding: 20px;
+  border-radius: 3px;
+  box-shadow: 5px 5px #888888;
+}
+
+main {
+  width: 400px;
+  margin: 40px auto;
+}
+
+#taskForm {
+  display: flex;
+  width: 100%;
+  gap: 10px;
+}
+
+#taskInput {
+  flex-grow: 1;
+  border: 2px solid blue;
+  border-radius: 3px;
+  padding: 10px;
+}
+
+#addBtn {
+  background-color: blue;
+  border-radius: 3px;
+  border: none;
+  color: white;
+  padding: 10px;
+}
+
+.todo {
+  flex-grow: 1;
+}
+
+.deleteBtn {
+  background-color: red;
+  border-radius: 3px;
+  border: none;
+  color: white;
+}
+
+.editBtn {
+  background-color: blue;
+  border-radius: 3px;
+  border: none;
+  color: white;
+}
