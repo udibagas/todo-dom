@@ -51,6 +51,10 @@ function handleSubmit(event) {
 }
 
 function deleteTask(id) {
+  if (!confirm("Anda yakin akan menghapus task ini?")) {
+    return;
+  }
+
   const tmpTask = [];
 
   for (let i = 0; i < tasks.length; i++) {
